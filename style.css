@@ -1,0 +1,62 @@
+body{
+    display: grid;
+    height: 900px;
+    background-color: whitesmoke;
+    padding: 10px;
+    grid-template-areas: 
+    'one one one one'
+    'two two two two'
+    'three four five six'
+    'seven  seven seven eight'
+    'seven seven seven nine'
+    'ten ten ten ten'
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 50px 200px 200px;
+    gap: 20px;
+    border: 3px solid black;
+    
+}
+.one{
+    grid-area: one;
+    background-color: aqua;
+}
+.two{
+    grid-area: two;
+    background-color: palevioletred;
+}
+.three{
+    grid-area: three;
+    background-color: peru;
+}
+.four{
+    grid-area: four;
+    background-color: bisque;
+}
+.five{
+    grid-area: five;
+    background-color: cornflowerblue;
+}
+.six{
+    grid-area: six;
+    background-color: darkcyan;
+}
+.seven{
+    grid-area: seven;
+    background-color: plum;
+}
+.eight{
+    grid-area: eight;
+    background-color: lightcoral;
+}
+.nine{
+    grid-area: nine;
+    background-color: sandybrown;
+}
+.ten{
+    grid-area: ten;
+    background-color: darkmagenta;
+}
+
+
+
